@@ -6,11 +6,11 @@ In essence, this guide aims to cover some setup requirements of CentOS8 and then
 
 ## Prerequites
 
-### Install tar
+### Install tar and curl
 
-Easy one! `dnf install tar curl -y`
-You can easily test that they installed correctly with `tar --version` and `curl --version`
-Also this allows you to remotely connect with VScode.
+Easy one! `dnf install tar curl -y`\
+You can easily test that they installed correctly with `tar --version` and `curl --version`\
+Also this allows you to remotely connect with VScode.\
 
 ### Install and enable SSH
 
@@ -24,16 +24,16 @@ dnf install openssh-server
 ```
 
 Start the SSH daemon
-`systemctl start sshd`
-`systemctl enable sshd`
+`systemctl start sshd`\
+`systemctl enable sshd`\
 
 Check everything is running:
-`systemctl status sshd`
+`systemctl status sshd`\
 
-It's highly recommended you exchange your public SSH key for ease of login.
+It's highly recommended you exchange your public SSH key for ease of login.\
 
 ## Links
 
-Factorio download page: https://www.factorio.com/download
+Factorio download page: https://www.factorio.com/download \
 
 Link that re-directs to the lastest server version: https://factorio.com/get-download/stable/headless/linux64
