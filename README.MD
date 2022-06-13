@@ -6,10 +6,10 @@ In essence, this guide aims to cover some setup requirements of CentOS8 and then
 
 ## Prerequites
 
-### Install tar and python3.9
+### Install tar
 
-Easy one! `dnf install tar python39`
-You can easily test that they've installed correctly with `tar --version` and `python3 --version`
+Easy one! `dnf install tar`
+You can easily test that tar installed correctly with `tar --version`
 Also this allows you to remotely connect with VScode.
 
 ### Install and enable SSH
