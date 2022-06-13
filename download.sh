@@ -8,7 +8,7 @@ if [ $UID -eq 0 ]; then
   echo "Installing system packages (tar and OpenSSH Server)"
   dnf makecache
   dnf upgrade
-  dnf install openssh-server tar -y
+  dnf install openssh-server tar curl -y
 
   # Start the SSH daemon
   echo "Enabling SSH"
