@@ -14,6 +14,9 @@ Also this allows you to remotely connect with VScode.
 
 ### Install and enable SSH
 
+Making SSH work on your server isn't a requirement of creating this server but it's a ton easier with it!
+Here's a quick guide, it's also handled by the script.
+
 Assuming you have a freshly installed CentOS 8 Stream server:
 
 Start with updating your system packages:
@@ -23,7 +26,7 @@ dnf upgrade
 dnf install openssh-server
 ```
 
-Start the SSH daemon\
+Start the SSH daemon:\
 `systemctl start sshd`\
 `systemctl enable sshd`
 
