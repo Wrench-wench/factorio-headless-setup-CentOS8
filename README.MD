@@ -8,8 +8,8 @@ In essence, this guide aims to cover some setup requirements of CentOS8 and then
 
 ### Install tar
 
-Easy one! `dnf install tar`
-You can easily test that tar installed correctly with `tar --version`
+Easy one! `dnf install tar curl -y`
+You can easily test that they installed correctly with `tar --version` and `curl --version`
 Also this allows you to remotely connect with VScode.
 
 ### Install and enable SSH
