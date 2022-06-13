@@ -23,7 +23,7 @@ dnf upgrade
 dnf install openssh-server
 ```
 
-Start the SSH daemon
+Start the SSH daemon\
 `systemctl start sshd`\
 `systemctl enable sshd`
 
