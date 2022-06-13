@@ -37,5 +37,3 @@ It's highly recommended you exchange your public SSH key for ease of login.
 Factorio download page: https://www.factorio.com/download
 
 Link that re-directs to the lastest server version: https://factorio.com/get-download/stable/headless/linux64
-
-### curl -Ls -o /dev/null -w %{url_effective} https://factorio.com/get-download/stable/headless/linux64
